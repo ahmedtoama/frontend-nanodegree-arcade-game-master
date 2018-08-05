@@ -6,7 +6,7 @@
 
 ** How to install arcade game
  you must download all file and fire index file then enjoy with playing
- this is the source : https://github.com/ahmedtoama/udacity-arcade-game
+ this is the source : https://github.com/ahmedtoama/frontend-nanodegree-arcade-game-master/
 
  *** How to play arcade game
   you can play this game by four key up ,down ,left ,right .
