@@ -1,0 +1,91 @@
+body {
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   background:#fff;
+}
+
+/*style for page for winner and user*/
+.winner ,
+.loser {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 115%;
+   display: none;
+   background: -webkit-linear-gradient(#1e3c72, #2a5298); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#1e3c72, #2a5298); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#1e3c72, #2a5298); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#1e3c72, #2a5298); /* Standard syntax */
+   color: white;
+   margin: 0;
+   padding: 0;
+}
+
+/*header fir winner and loser style*/
+.winner h1 ,
+.loser h1 {
+   font-size: 60px;
+   font-family: "Ayres Serif";
+}
+
+.winner h1 {
+   margin-top: 100px;
+}
+
+.loser h1 {
+   margin-top: 150px;
+}
+
+.winner h1 ,
+.winner h2 ,
+.loser h1 ,
+.loser h2 {
+   color: #ddd;
+}
+
+.winner .fa-star {
+   color: rgb(201, 215, 30);
+}
+
+.fa-trophy {
+   font-size: 150px;
+   color: rgb(201, 215, 30);
+   margin: 50px 0;
+}
+
+.p_s_1 ,
+.p_s_2 ,
+.p_s_3 {
+   color: rgb(240, 174, 28);
+   visibility: hidden;
+}
+
+/*stander for all page*/
+h1 ,
+h2 {
+   text-transform: capitalize;
+   font-family: tahoma;
+   color:rgb(19, 158, 255);
+}
+
+.fa-heart {
+   color: red;
+}
+
+.fa-heart:nth-child(2) {
+   margin: 0 3px;
+}
+
+.fa-star {
+   margin-right: 2px;
+}
+
+.fa-repeat {
+   margin-top: 50px;
+   font-size: 35px;
+   cursor: pointer;
+}
+
+/*end stander for all page*/
